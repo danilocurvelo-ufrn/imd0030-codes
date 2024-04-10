@@ -1,4 +1,4 @@
-#include "retangulo_mod.h"
+#include "retangulo.h"
 
 int Retangulo::area() {
     return largura * altura;
@@ -6,10 +6,4 @@ int Retangulo::area() {
 
 int Retangulo::perimetro() {
     return (2 * largura + 2 * altura);
-}
-
-int main() {
-    Retangulo* r = new Retangulo();
-
-    return 0;
 }
