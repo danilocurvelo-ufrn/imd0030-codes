@@ -9,7 +9,7 @@ class Base {
         {
         }
 
-        int getId() { return m_id; }
+        int getId() const { return m_id; }
 };
 
 class Derived: public Base {
@@ -21,7 +21,7 @@ class Derived: public Base {
         {
         }
 
-        double getCost() { return m_cost; }
+        double getCost() const { return m_cost; }
 };
 
 int main() {

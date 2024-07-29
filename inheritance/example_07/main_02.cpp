@@ -15,10 +15,10 @@ class Derived: public Base {
 };
 
 int main() {
-    Base base {};
+    Base base;
     base.identify();
 
-    Derived derived {};
+    Derived derived;
     derived.identify();
 
     return 0;
