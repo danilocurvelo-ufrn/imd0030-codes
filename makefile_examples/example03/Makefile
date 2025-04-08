@@ -1,9 +1,9 @@
 #Makefile for "imd0030" C++ application
-#Created by <nome_autor> 01/01/2024
+#Created by <nome_autor> 01/01/2025
 
 PROG = imd0030
 CC = g++
-CPPFLAGS = -O0 -g –Wall -pedantic –I/usr/imd0030/include
+CPPFLAGS = –Wall –I/usr/imd0030/include
 LDFLAGS = -L/usr/imd0030/lib –lmylib
 OBJS = main.o processos.o database.o util.o
 
