@@ -10,26 +10,26 @@ int fibonacci(int n) {
 
 }
 
+// int main() {
+//     int n;
+//     std::cout << "Entre com o valor de N: ";
+//     std::cin >> n; 
+
+//     std::cout << "fibonacci(" << n << ") = " <<  fibonacci(n) << " " << std::endl;
+// }
+
 int main() {
+
     int n;
     std::cout << "Entre com o valor de N: ";
     std::cin >> n; 
 
-    std::cout << "fibonacci(" << n << ") = " <<  fibonacci(n) << " " << std::endl;
+    int i = 0;
+    while (i <= n) {
+        std::cout << fibonacci(i) << " ";
+        i++;
+    }
+
+    return 0;
+
 }
-
-// int main() {
-
-//     int n;
-//     std::cout << "Quantos elementos da sequência de Fibonacci você gostaria: ";
-//     std::cin >> n; 
-
-//     int i = 0;
-//     while (i < n) {
-//         std::cout << fibonacci(i) << " ";
-//         i++;
-//     }
-
-//     return 0;
-
-// }
