@@ -17,9 +17,14 @@ int main() {
     c.setNome("Carlos");
     c.setMatricula("33333");
 
+    Aluno* d = new Aluno();
+    d->setNome("Alice");
+    d->setMatricula("4444");
+
     // a.printAlunoInfo();
     // b.printAlunoInfo();
     // c.printAlunoInfo();
+    // d->printAlunoInfo();
 
     Turma lp1;
     lp1.setNome("Linguagem de Programação I");
