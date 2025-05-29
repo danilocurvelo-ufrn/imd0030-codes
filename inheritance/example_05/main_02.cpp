@@ -18,6 +18,7 @@ class Derived: public Base {
             // NÃO FUNCIONA!
             : m_cost(cost), m_id(id)
         {
+            m_id = id;
         }
 
         double getCost() { return m_cost; }

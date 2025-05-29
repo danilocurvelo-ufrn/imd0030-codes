@@ -11,7 +11,7 @@ class Animal {
 
     public:
         std::string& getName() { return m_name; }
-        virtual std::string speak() { return "???"; }
+        virtual std::string speak() const { return "???"; }
 };
 
 class Cat: public Animal {
@@ -20,7 +20,7 @@ class Cat: public Animal {
             : Animal(name)
         { }
 
-        std::string speak() { return "miau!"; }
+        std::string speak() const override { return "miau!"; }
 };
 
 class Dog: public Animal {
@@ -29,7 +29,7 @@ class Dog: public Animal {
             : Animal(name)
         { }
 
-        std::string speak() { return "au-au!"; }
+        std::string speak() const override { return "au-au!"; }
 };
 
 void report(Animal& animal) {
