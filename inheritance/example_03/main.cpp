@@ -20,9 +20,10 @@ class BaseballPlayer : public Person {
         double m_battingAverage;
         int m_homeRuns;
 
-        BaseballPlayer(double battingAverage = 0.0, int homeRuns = 0)
-        : m_battingAverage{battingAverage}, m_homeRuns{homeRuns}
+        BaseballPlayer(double battingAverage = 0.0, int homeRuns = 0) 
+            : m_battingAverage(battingAverage), m_homeRuns(homeRuns) 
         {
+            
         }
 };
 

@@ -6,7 +6,7 @@ class Tempo {
  
    public:
       Tempo(short h, short m, short s);
-      Tempo operator+ (Tempo &t);
+      Tempo operator+ (const Tempo &t);
 
       short getHoras();
       short getMinutos();

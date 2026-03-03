@@ -7,7 +7,7 @@ int main() {
   
    Tempo y = r + t;       // 13h 50min 0s
 
-   std::cout << y.getHoras() << ":" << y.getMinutos() << ":" << y.getSegundos();
+   std::cout << y.getHoras() << ":" << y.getMinutos() << ":" << y.getSegundos() << std::endl;
 
    return 0;
 }

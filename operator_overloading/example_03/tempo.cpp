@@ -9,7 +9,7 @@ short Tempo::getHoras() { return horas; }
 short Tempo::getMinutos() { return minutos; }
 short Tempo::getSegundos() { return segundos; }
 
-Tempo Tempo::operator+ (Tempo &t) {
+Tempo Tempo::operator+(Tempo const &t) {
   short h = horas + t.horas;
   short m = minutos + t.minutos;
   short s = segundos + t.segundos;
